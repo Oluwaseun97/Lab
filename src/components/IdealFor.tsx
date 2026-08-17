@@ -49,7 +49,7 @@ export const IdealFor: React.FC<IdealForProps> = ({ onScrollToForm }) => {
             {/* Outreach Lab Image */}
             <div className="relative rounded-2xl overflow-hidden border border-slate-800 shadow-xl group">
               <img
-                src="/src/assets/images/lab_team_outreach_1786473385471.jpg"
+                src="/images/lab_team_outreach_1786473385471.jpg"
                 alt="Medical Laboratory Technician in action"
                 className="w-full h-[240px] object-cover group-hover:scale-105 transition-transform duration-500"
                 referrerPolicy="no-referrer"
