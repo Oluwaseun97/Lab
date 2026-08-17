@@ -1,0 +1,6 @@
+{
+  "name": "Lab Linik Services",
+  "description": "Sales landing page and locum laboratory staffing booking system for Lab Linik Services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
