@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Building2, CheckCircle2, Search, Building, HeartPulse, Landmark, Microscope, Users, Sparkles } from 'lucide-react';
 import { SALES_COPY } from '../data/copy';
+import outreachImage from '../assets/images/lab_team_outreach.jpg';
 
 interface IdealForProps {
   onScrollToForm: () => void;
@@ -49,7 +50,7 @@ export const IdealFor: React.FC<IdealForProps> = ({ onScrollToForm }) => {
             {/* Outreach Lab Image */}
             <div className="relative rounded-2xl overflow-hidden border border-slate-800 shadow-xl group">
               <img
-                src="/images/lab_team_outreach_1786473385471.jpg"
+                src={outreachImage || "/images/lab_team_outreach.jpg"}
                 alt="Medical Laboratory Technician in action"
                 className="w-full h-[240px] object-cover group-hover:scale-105 transition-transform duration-500"
                 referrerPolicy="no-referrer"

@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, CheckCircle2, AlertCircle, Phone, MessageSquare, ShieldCheck, Sparkles } from 'lucide-react';
 import { SALES_COPY } from '../data/copy';
+import heroImage from '../assets/images/lab_hero_banner.jpg';
 
 interface HeroProps {
   onScrollToForm: () => void;
@@ -99,7 +100,7 @@ export const Hero: React.FC<HeroProps> = ({ onScrollToForm }) => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden border border-slate-700/80 shadow-2xl bg-slate-800 group">
               <img
-                src="/images/lab_hero_banner_1786473371489.jpg"
+                src={heroImage || "/images/lab_hero_banner.jpg"}
                 alt="Lab Linik Medical Laboratory Scientist at work"
                 className="w-full h-[400px] sm:h-[480px] object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
